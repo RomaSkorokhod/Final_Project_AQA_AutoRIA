@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>Final_Project_AQA_AutoRIA</artifactId>
+    <groupId>org.QA-2.final-project</groupId>
+    <artifactId>TestingFramework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <maven.surefire.version>3.0.0-M8</maven.surefire.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
         <aspectj.version>1.9.6</aspectj.version>

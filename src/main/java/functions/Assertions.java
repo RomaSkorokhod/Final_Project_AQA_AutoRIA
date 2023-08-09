@@ -7,20 +7,24 @@ import static org.testng.Assert.assertEquals;
 public class Assertions {
     private final WebDriver driver;
     private final Elements elements;
-    private final Waiters waiters;
     private final Action action;
+    private final Waiters waiters;
 
     public Assertions(WebDriver driver) {
         this.driver = driver;
         elements = new Elements(driver);
-        waiters = new Waiters(driver);
         action = new Action(driver);
+        waiters = new Waiters(driver);
     }
 
-    public void equalsOfInt(int actual, int expected) {
-        assertEquals(actual, expected,
-                "Я ожидал получить число " + expected + ". А получил " + actual + ".");
+    public void equalsOfText(String actualText, String expectedText) {
+        assertEquals(actualText, expectedText,
+                "I was expecting text " + expectedText + ". And received " + actualText + ".");
     }
 
-
+    public void equalsOfTextByXpath(String xpath, String expectedText) {
+        assertEquals(elements.getElementText(elements.findElementByXpath(xpath)), expectedText,
+                "I was expecting text " + expectedText + ". And received " +
+                        elements.getElementText(elements.findElementByXpath(xpath)) + ".");
+    }
 }
