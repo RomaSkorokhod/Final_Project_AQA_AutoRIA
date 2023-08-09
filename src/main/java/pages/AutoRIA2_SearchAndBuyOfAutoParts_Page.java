@@ -38,9 +38,7 @@ public class AutoRIA2_SearchAndBuyOfAutoParts_Page extends BasePage {
         elements.clickOnElement(Locators.accept);
     }
     public void openPage2(){driver.get(Labels.url2);}
-    public void InputSearchText(){driver.findElement(Locators.InputSearchText);
-    elements.clickOnElement(Locators.InputSearchText);}
-    public void VolkswagenInputText() {elements.inputDataAndThenEnter(Labels.VolkswagenInputText);}
+    public void InputSearchText(){elements.inputDataThenEnter(Locators.InputSearchText, Labels.VolkswagenInputText);}
     public void VolkswagenBeetleParts() {elements.findElement(Locators.VolkswagenBeetleParts);
     elements.clickOnElement(Locators.VolkswagenBeetleParts);}
     public void VolkswagenBeetlePartBuy() {elements.findElement(Locators.VolkswagenBeetlePartBuy);
