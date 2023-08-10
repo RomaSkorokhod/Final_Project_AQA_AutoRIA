@@ -2,7 +2,7 @@
 <suite name="AllTests Suite">
     <test name="AllTestCases">
         <classes>
-            <class name = "AutoRIA2_SearchAndBuyOfAutoParts_Page_Test"/>
+            <class name = "AutoRIA_2SearchAndBuyOfAutoParts_Page_Test"/>
         </classes>
     </test>
 </suite>

@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168160ff-c0de-4eed-95e2-9d0129168697" name="Changes" comment="New">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_2SearchAndBuyOfAutoParts_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA2_SearchAndBuyOfAutoParts_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA2_SearchAndBuyOfAutoParts_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0bd45933-70fe-4e52-b508-41031e7b9047-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0be73c9a-d9b6-4548-8404-8f34250eec23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bee7c6c1-c92c-4e93-b1c5-535197bcccf9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e381a2c8-3741-426d-94d2-ac28cd59328f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA2_SearchAndBuyOfAutoParts_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Roma/IdeaProjects/Final_Project_AQA_AutoRIA",
+    "last_opened_file_path": "C:/Users/Roma/IdeaProjects/testingframework",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -69,11 +78,46 @@
       <recent name="driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.OpenPageTest (1)">
-    <configuration name="AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.OpenPageTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test">
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA2_SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyLampAndDel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="METHOD_NAME" value="BuyLampAndDel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyVolksWagenPartsAndDel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="METHOD_NAME" value="BuyVolksWagenPartsAndDel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
       <option name="METHOD_NAME" value="OpenPageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -82,46 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestingFramework" />
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA2_SearchAndBuyOfAutoParts_Page_Test" />
-      <option name="METHOD_NAME" value="OpenPageTest" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="METHOD_NAME" value="SearchButtonStartStopAndBuy" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PampikMainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestingFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PampikMainPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PampikMainPageTest.ctrlClickTheCompanyLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestingFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PampikMainPageTest" />
-      <option name="METHOD_NAME" value="ctrlClickTheCompanyLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PampikRegisterPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestingFramework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PampikRegisterPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -130,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.OpenPageTest (1)" />
-        <item itemvalue="TestNG.AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" />
-        <item itemvalue="TestNG.PampikMainPageTest" />
-        <item itemvalue="TestNG.PampikMainPageTest.ctrlClickTheCompanyLogo" />
-        <item itemvalue="TestNG.PampikRegisterPageTest" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyLampAndDel" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyVolksWagenPartsAndDel" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691605685303</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="New">
+      <created>1691607605552</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691607605552</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
