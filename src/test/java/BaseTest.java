@@ -21,14 +21,13 @@ public class BaseTest {
     protected Waiters waiters = new Waiters(driver);
     protected AutoRIA_2SearchAndBuyOfAutoParts_Page AutoRIA_2SearchAndBuyOfAutoParts_Page = new AutoRIA_2SearchAndBuyOfAutoParts_Page(driver);
     protected AutoRIA_3Registration_Page AutoRIA_3Registration_Page = new AutoRIA_3Registration_Page(driver);
+    protected AutoRIA_1SearchOfTransport_Page AutoRIA_1SearchOfTransport_Page = new AutoRIA_1SearchOfTransport_Page(driver);
 
 
     @BeforeSuite
     public void Coockies(){
         AutoRIA_2SearchAndBuyOfAutoParts_Page.openPage();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.acceptCookies();
-       /* AutoRIA_3Registration_Page.openPage();
-        AutoRIA_3Registration_Page.acceptCookies();*/
     }
 
     @AfterSuite
