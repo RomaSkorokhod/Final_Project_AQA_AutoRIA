@@ -5,23 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="168160ff-c0de-4eed-95e2-9d0129168697" name="Changes" comment="New">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_2SearchAndBuyOfAutoParts_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_3Registration_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_3Registration_Page_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0bd45933-70fe-4e52-b508-41031e7b9047-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/0be73c9a-d9b6-4548-8404-8f34250eec23-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/bee7c6c1-c92c-4e93-b1c5-535197bcccf9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/e381a2c8-3741-426d-94d2-ac28cd59328f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA2_SearchAndBuyOfAutoParts_Page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA2_SearchAndBuyOfAutoParts_Page_Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Final/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Final/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_2SearchAndBuyOfAutoParts_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_2SearchAndBuyOfAutoParts_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -78,7 +79,20 @@
       <recent name="driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test">
+  <component name="RunManager" selected="TestNG.AutoRIA_3Registration_Page_Test.registeredWithoutEmail">
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final.Test3" />
+      <module name="Final_Project_AQA_AutoRIA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,30 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyVolksWagenPartsAndDel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
-      <option name="METHOD_NAME" value="BuyVolksWagenPartsAndDel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
-      <option name="METHOD_NAME" value="OpenPageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
@@ -138,13 +128,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoRIA_3Registration_Page_Test.registeredWithoutEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
+      <option name="METHOD_NAME" value="registeredWithoutEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.registeredWithoutEmail" />
+        <item itemvalue="Application.Test3" />
         <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
         <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" />
         <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyLampAndDel" />
-        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.BuyVolksWagenPartsAndDel" />
-        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.OpenPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691607605552</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="New">
+      <created>1691688040925</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1691688040925</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

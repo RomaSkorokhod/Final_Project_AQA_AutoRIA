@@ -10,8 +10,8 @@ public class AutoRIA_2SearchAndBuyOfAutoParts_Page extends BasePage {
         super(driver);
     }
 
-    private static class Locators {
-        private final static By acceptCookies = By.xpath("//label[@class='js-close c-notifier-btn']");
+    static class Locators {
+        final static By acceptCookies = By.xpath("//label[@class='js-close c-notifier-btn']");
         private final static By InputSearchText = By.id("js-search-text");
         private final static By VolkswagenBeetleParts = By.xpath("//h2[contains(text(),'Volkswagen Beetle 1.6TDI 03L130277b')]");
         private final static By VolkswagenBeetlePartBuy = By.xpath("//span[@class='js-buy-text']");
@@ -27,8 +27,8 @@ public class AutoRIA_2SearchAndBuyOfAutoParts_Page extends BasePage {
         private final static By BuyOrder = By.xpath("//span[contains(text(),'Оформити замовлення')]");
     }
 
-    private static class Labels {
-        private final static String url = "https://auto.ria.com/uk/";
+    static class Labels {
+        final static String url = "https://auto.ria.com/uk/";
         private final static String url2 = "https://zapchasti.ria.com/uk/";
         private final static String VolkswagenInputText = "форсунка для Volkswagen Beetle";
         private final static String AutoOilInputText = "Мастило трансмісійне 1л 08886";

@@ -15,11 +15,17 @@ public class Test3 {
         WebDriver driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://auto.ria.com/uk/");
+
+
         driver.findElement(By.xpath("//label[@class='js-close c-notifier-btn']")).click();
+
         driver.findElement(By.xpath("//span[@class='tl']")).click();
 
+
         driver.switchTo().frame("login_frame");
+
         driver.findElement(By.xpath("//a[contains(text(),'Зареєструватися на AUTO.RIA')]")).click();
+        Thread.sleep(2000);
 
         driver.findElement(By.xpath("//form[@id='login-form']"));
         driver.findElement(By.id("registrationform-name")).sendKeys("Roman");
