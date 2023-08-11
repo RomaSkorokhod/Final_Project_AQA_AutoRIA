@@ -2,7 +2,7 @@ import org.testng.annotations.Test;
 
 public class AutoRIA_2SearchAndBuyOfAutoParts_Page_Test extends BaseTest {
 
-    @Test
+    @Test (priority = 1)
     public void BuyVolksWagenPartsAndDel() {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.openPageAutoParts();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.inputSearchTextVW();
@@ -12,7 +12,7 @@ public class AutoRIA_2SearchAndBuyOfAutoParts_Page_Test extends BaseTest {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.basket();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.delOrder();
     }
-    @Test
+    @Test (priority = 2)
     public void BuyAutoOilAndDel() {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.openPageAutoParts();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.inputSearchTextAutoOil();
@@ -22,7 +22,7 @@ public class AutoRIA_2SearchAndBuyOfAutoParts_Page_Test extends BaseTest {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.basket();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.delOrder();
     }
-    @Test
+    @Test (priority = 3)
     public void BuyLampAndDel() {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.openPageAutoParts();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.inputSearchTextAutoLamp();
@@ -32,7 +32,7 @@ public class AutoRIA_2SearchAndBuyOfAutoParts_Page_Test extends BaseTest {
         AutoRIA_2SearchAndBuyOfAutoParts_Page.basket();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.delOrder();
     }
-    @Test
+    @Test (priority = 4)
     public void SearchButtonStartStopAndBuy(){
         AutoRIA_2SearchAndBuyOfAutoParts_Page.openPageAutoParts();
         AutoRIA_2SearchAndBuyOfAutoParts_Page.inputSearchTextStartButton();
