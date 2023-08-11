@@ -1,14 +1,13 @@
 import driver.DriverFactory;
-import functions.Action;
-import functions.Assertions;
-import functions.Elements;
-import functions.Waiters;
+import functions.*;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import pages.*;
 import utils.TestResultListener;
+
+import java.time.Duration;
 
 @Listeners(TestResultListener.class)
 public class BaseTest {
@@ -31,7 +30,7 @@ public class BaseTest {
     }
 
     @AfterSuite
-    public void closeDriver(){
+    public void closeDriver(){waiters.waitSomeMilliseconds(3000);
         driver.quit();
     }
 

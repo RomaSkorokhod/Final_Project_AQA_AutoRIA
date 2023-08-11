@@ -1,9 +1,6 @@
 package pages;
 
-import functions.Action;
-import functions.Assertions;
-import functions.Elements;
-import functions.Waiters;
+import functions.*;
 import org.openqa.selenium.WebDriver;
 
 public class BasePage {
