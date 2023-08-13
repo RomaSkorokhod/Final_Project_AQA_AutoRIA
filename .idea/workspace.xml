@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="168160ff-c0de-4eed-95e2-9d0129168697" name="Changes" comment="Roma">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_3Registration_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_3Registration_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Final/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Final/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functions/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/functions/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_1SearchOfTransport_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_1SearchOfTransport_Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA_1SearchOfTransport_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_1SearchOfTransport_Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA_3Registration_Page_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_3Registration_Page_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +54,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Roma/IdeaProjects/AQA_Roma_S",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Roma/IdeaProjects/testingframework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\i\IdeaProjects\QA-2-final-project\src\main" />
@@ -81,11 +83,36 @@
       <recent name="driver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AutoRIA_3Registration_Page_Test">
-    <configuration name="AutoRIA_3Registration_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AutoRIA_1SearchOfTransport_Test.SearchAutoHouse">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final.Test1" />
+      <module name="Final_Project_AQA_AutoRIA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_1SearchOfTransport_Test.SearchAutoHouse" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_1SearchOfTransport_Test" />
+      <option name="METHOD_NAME" value="SearchAutoHouse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -93,12 +120,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoRIA_3Registration_Page_Test.registeredNotValidPhoneNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoRIA_3Registration_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
-      <option name="METHOD_NAME" value="registeredNotValidPhoneNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,37 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoRIA_3Registration_Page_Test.registeredWithoutSecondName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
-      <option name="METHOD_NAME" value="registeredWithoutSecondName" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoRIA_3Registration_Page_Test.successfulRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
-      <option name="METHOD_NAME" value="successfulRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AutoRIA_1SearchOfTransport_Test.SearchAutoHouse" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
         <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.registeredWithoutEmail" />
-        <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.successfulRegistration" />
-        <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.registeredNotValidPhoneNumber" />
-        <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.registeredWithoutSecondName" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691764912930</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Roma">
+      <created>1691773899977</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1691773899977</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

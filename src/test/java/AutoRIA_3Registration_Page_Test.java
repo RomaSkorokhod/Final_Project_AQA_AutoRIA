@@ -11,7 +11,7 @@ public class AutoRIA_3Registration_Page_Test extends BaseTest {
         AutoRIA_3Registration_Page.secondName();
         AutoRIA_3Registration_Page.checkBox();
         AutoRIA_3Registration_Page.registrationButton();
-        waiters.waitSomeMilliseconds(1500);
+        waiters.waitSomeMilliseconds(2000);
         AutoRIA_3Registration_Page.refresh();
     }
     @Test (priority = 2)
@@ -22,7 +22,7 @@ public class AutoRIA_3Registration_Page_Test extends BaseTest {
         AutoRIA_3Registration_Page.validEmail();
         AutoRIA_3Registration_Page.checkBox();
         AutoRIA_3Registration_Page.registrationButton();
-        waiters.waitSomeMilliseconds(1500);
+        waiters.waitSomeMilliseconds(2000);
         AutoRIA_3Registration_Page.refresh();
     }
     @Test (priority = 3)
@@ -34,7 +34,7 @@ public class AutoRIA_3Registration_Page_Test extends BaseTest {
         AutoRIA_3Registration_Page.notValidEmail();
         AutoRIA_3Registration_Page.checkBox();
         AutoRIA_3Registration_Page.registrationButton();
-        waiters.waitSomeMilliseconds(1500);
+        waiters.waitSomeMilliseconds(2000);
         AutoRIA_3Registration_Page.refresh();
 
     }
@@ -46,7 +46,7 @@ public class AutoRIA_3Registration_Page_Test extends BaseTest {
         AutoRIA_3Registration_Page.validEmail();
         AutoRIA_3Registration_Page.checkBox();
         AutoRIA_3Registration_Page.registrationButton();
-        waiters.waitSomeMilliseconds(1500);
+        waiters.waitSomeMilliseconds(2000);
         AutoRIA_3Registration_Page.refresh();
 
     }
@@ -59,7 +59,7 @@ public class AutoRIA_3Registration_Page_Test extends BaseTest {
         AutoRIA_3Registration_Page.notValidPhoneNumber();
         AutoRIA_3Registration_Page.checkBox();
         AutoRIA_3Registration_Page.registrationButton();
-        waiters.waitSomeMilliseconds(1500);
+        waiters.waitSomeMilliseconds(2000);
         AutoRIA_3Registration_Page.refresh();
 
     }

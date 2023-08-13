@@ -24,6 +24,8 @@ public class Test1 {
         Select categorySelect = new Select(category);
         categorySelect.selectByValue("8");
 
+
+
         Actions actions = new Actions(driver);
         WebElement brand1 = driver.findElements(By.id("brandTooltipBrandAutocompleteInput-brand")).get(0);
         actions.moveToElement(brand1).click().build().perform();
@@ -44,6 +46,8 @@ public class Test1 {
         region.sendKeys(Keys.ARROW_DOWN);
         region.sendKeys(Keys.ENTER);
 
+
+
         WebElement year = driver.findElements(By.xpath("//label[@for='forYear']")).get(0);
         actions.moveToElement(year).click().build().perform();
 
@@ -59,9 +63,14 @@ public class Test1 {
         WebElement year0 = driver.findElements(By.xpath("//label[@for='forYear']")).get(0);
         actions.moveToElement(year0).click().build().perform();
 
+
+
         driver.findElement(By.xpath("//label[@for='forPrice']")).click();
         driver.findElement(By.id("priceFrom")).sendKeys("2000");
         driver.findElement(By.id("priceTo")).sendKeys("40000");
+
+
+
 
         driver.findElement(By.xpath("//div[@class='span8 form-search']")).click();
         driver.findElement(By.xpath("//button[@type='submit']")).click();

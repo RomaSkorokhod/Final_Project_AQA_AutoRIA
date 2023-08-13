@@ -30,7 +30,7 @@ public class BaseTest {
     }
 
     @AfterSuite
-    public void closeDriver(){waiters.waitSomeMilliseconds(2000);
+    public void closeDriver(){waiters.waitSomeMilliseconds(3000);
         driver.quit();
     }
 

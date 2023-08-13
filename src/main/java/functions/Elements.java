@@ -83,6 +83,4 @@ public class Elements {
         waiters.waitSomeMilliseconds(milliseconds);
     }
 
-    public void inputDataAndThenEnter(String volkswagenInputText) {
-    }
 }
