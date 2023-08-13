@@ -2,11 +2,11 @@ import org.testng.annotations.Test;
 
 public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
 
-    @Test (priority = 4)
+    @Test
     public void SearchAutoHouse(){
         AutoRIA_1SearchOfTransport_Page.startPage();
         AutoRIA_1SearchOfTransport_Page.selectAutoHouse();
-        AutoRIA_1SearchOfTransport_Page.brandAutoHouse();
+        AutoRIA_1SearchOfTransport_Page.brandMers();
         AutoRIA_1SearchOfTransport_Page.modelAutoHouse();
         AutoRIA_1SearchOfTransport_Page.region();
         AutoRIA_1SearchOfTransport_Page.year();
@@ -14,12 +14,13 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.yearTo();
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.price();
-        AutoRIA_1SearchOfTransport_Page.priceFrom20k();
-        AutoRIA_1SearchOfTransport_Page.priceTo40k();
+        AutoRIA_1SearchOfTransport_Page.priceFrom15k();
+        AutoRIA_1SearchOfTransport_Page.priceTo70k();
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
-    @Test (priority = 2)
+    @Test
     public void SearchMotorcycle(){
         AutoRIA_1SearchOfTransport_Page.startPage();
         AutoRIA_1SearchOfTransport_Page.selectMotorcycle();
@@ -35,8 +36,9 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.priceTo30k();
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
-    @Test (priority = 5)
+    @Test
     public void SearchWaterTransport() {
         AutoRIA_1SearchOfTransport_Page.startPage();
         AutoRIA_1SearchOfTransport_Page.selectWaterTransport();
@@ -52,8 +54,9 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.priceTo20k();
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
-    @Test (priority = 1)
+    @Test
     public void SearchAuto() {
         AutoRIA_1SearchOfTransport_Page.selectAuto();
         AutoRIA_1SearchOfTransport_Page.brandBMW();
@@ -69,8 +72,9 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.vin();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
-    @Test (priority = 3)
+    @Test
     public void SearchBus() {
         AutoRIA_1SearchOfTransport_Page.startPage();
         AutoRIA_1SearchOfTransport_Page.selectBus();
@@ -78,17 +82,17 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.modelCrafter();
         AutoRIA_1SearchOfTransport_Page.region();
         AutoRIA_1SearchOfTransport_Page.year();
-        AutoRIA_1SearchOfTransport_Page.yearFrom2015();
+        AutoRIA_1SearchOfTransport_Page.yearFrom2010();
         AutoRIA_1SearchOfTransport_Page.yearTo();
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.price();
-        AutoRIA_1SearchOfTransport_Page.priceFrom15k();
-        AutoRIA_1SearchOfTransport_Page.priceTo30k();
+        AutoRIA_1SearchOfTransport_Page.priceFrom20k();
+        AutoRIA_1SearchOfTransport_Page.priceTo40k();
         AutoRIA_1SearchOfTransport_Page.closedForm();
-        AutoRIA_1SearchOfTransport_Page.vin();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
-    @Test (priority = 6)
+    @Test
     public void SearchSportCar() {
         AutoRIA_1SearchOfTransport_Page.startPage();
         AutoRIA_1SearchOfTransport_Page.selectAuto();
@@ -105,5 +109,6 @@ public class AutoRIA_1SearchOfTransport_Test extends BaseTest {
         AutoRIA_1SearchOfTransport_Page.closedForm();
         AutoRIA_1SearchOfTransport_Page.vin();
         AutoRIA_1SearchOfTransport_Page.searchButton();
+        AutoRIA_1SearchOfTransport_Page.waiters();
     }
 }

@@ -76,7 +76,7 @@ public class AutoRIA_1SearchOfTransport_Page extends BasePage {
     public void selectAutoHouse(){
         elements.findElement(Locators.categorySelect);
         elements.clickOnElement(Locators.selectAutoHouse);}
-    public void brandAutoHouse(){
+    public void brandMers(){
         elements.inputDataThenEnter(Locators.brandSelect, Labels.mers);
         elements.findElement(Locators.brandMers).click();}
     public void modelAutoHouse(){
@@ -170,6 +170,6 @@ public class AutoRIA_1SearchOfTransport_Page extends BasePage {
     public void modelMustang(){
         elements.inputDataThenEnter(Locators.modelSelect, Labels.mustang);
         elements.findElement(Locators.modelMustang).click();}
-
+    public void waiters(){wait.waitSomeMilliseconds(2000);}
 
 }

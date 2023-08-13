@@ -9,11 +9,9 @@ public class AutoRIA_3Registration_Page extends BasePage {
     }
 
     private static class Locators {
-        private final static By acceptCookies = By.xpath("//label[@class='js-close c-notifier-btn']");
         private final static By enterTheOffice = By.xpath("//span[@class='tl']");
         private final static By frame = By.id("login_frame");
         private final static By registration = By.xpath("//a[contains(text(),'Зареєструватися на AUTO.RIA')]");
-        private final static By loginForm = By.xpath("//form[@id='login-form']");
         private final static By name = By.id("registrationform-name");
         private final static By secondName = By.id("registrationform-second_name");
         private final static By email = By.id("registrationform-email");
@@ -26,9 +24,6 @@ public class AutoRIA_3Registration_Page extends BasePage {
     }
 
     private static class Labels {
-        private final static String url = "https://auto.ria.com/uk/";
-        private final static String loginPage = "https://auto.ria.com/uk/login.html";
-        private final static String loginForm = "https://auto.ria.com/uk/login.html?from_url=/uk/cabinet/";
         private final static String validName = "Roman";
         private final static String validSecondName = "Shevchenko";
         private final static String validEmail = "Sheva@ukr.net";
@@ -36,20 +31,12 @@ public class AutoRIA_3Registration_Page extends BasePage {
         private final static String phoneNumberPlusLetters = "09977666tt";
     }
 
-    public void openPage(){driver.get("https://auto.ria.com/uk/");}
-    public void acceptCookies() {
-        elements.findElement(Locators.acceptCookies);
-        elements.clickOnElement(Locators.acceptCookies);
-    }
-    public void loginPage(){driver.get(Labels.loginPage);}
     public void enterTheOffice() {elements.findElement(Locators.enterTheOffice);
         elements.clickOnElement(Locators.enterTheOffice);}
     public void frame() {elements.findElement(Locators.frame);
         driver.switchTo().frame("login_frame");}
     public void registration() {elements.findElement(Locators.registration);
         elements.clickOnElement(Locators.registration);}
-    public void loginForm() {elements.findElement(Locators.loginForm);
-        elements.clickOnElement(Locators.loginForm);}
     public void name(){elements.inputData(Locators.name, Labels.validName);}
     public void secondName(){elements.inputData(Locators.secondName, Labels.validSecondName);}
     public void validEmail(){elements.inputData(Locators.validEmail, Labels.notValidEmail);}
@@ -58,12 +45,6 @@ public class AutoRIA_3Registration_Page extends BasePage {
     public void notValidEmail(){elements.inputData(Locators.notValidEmail, Labels.notValidEmail);}
     public void notValidPhoneNumber(){elements.inputData(Locators.notValidPhoneNumber, Labels.phoneNumberPlusLetters);}
     public void email(){elements.inputData(Locators.email, Labels.validEmail);}
-    public void refresh(){driver.navigate().refresh();}
-
-
-
-
-
-
-
+    public void refresh(){driver.navigate().refresh();
+    }
 }
