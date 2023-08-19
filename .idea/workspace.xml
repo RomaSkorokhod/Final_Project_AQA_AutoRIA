@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="168160ff-c0de-4eed-95e2-9d0129168697" name="Changes" comment="Roma">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_1SearchOfTransport_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_1SearchOfTransport_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_3Registration_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoRIA_3Registration_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA_1SearchOfTransport_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_1SearchOfTransport_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutoRIA_3Registration_Page_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutoRIA_3Registration_Page_Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,35 +91,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoRIA_1SearchOfTransport_Test.SearchAutoHouse" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_1SearchOfTransport_Test" />
-      <option name="METHOD_NAME" value="SearchAutoHouse" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutoRIA_1SearchOfTransport_Test.SearchBus" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_Project_AQA_AutoRIA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AutoRIA_1SearchOfTransport_Test" />
-      <option name="METHOD_NAME" value="SearchBus" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Project_AQA_AutoRIA" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
+      <option name="METHOD_NAME" value="SearchButtonStartStopAndBuy" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,13 +125,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AutoRIA_3Registration_Page_Test.registeredWithoutName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_Project_AQA_AutoRIA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AutoRIA_3Registration_Page_Test" />
+      <option name="METHOD_NAME" value="registeredWithoutName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test" />
-        <item itemvalue="TestNG.AutoRIA_1SearchOfTransport_Test" />
+        <item itemvalue="TestNG.AutoRIA_3Registration_Page_Test.registeredWithoutName" />
+        <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test.SearchButtonStartStopAndBuy" />
         <item itemvalue="TestNG.AutoRIA_2SearchAndBuyOfAutoParts_Page_Test" />
-        <item itemvalue="TestNG.AutoRIA_1SearchOfTransport_Test.SearchAutoHouse" />
-        <item itemvalue="TestNG.AutoRIA_1SearchOfTransport_Test.SearchBus" />
+        <item itemvalue="TestNG.AutoRIA_1SearchOfTransport_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691946067974</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Roma">
+      <created>1691957270005</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1691957270005</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

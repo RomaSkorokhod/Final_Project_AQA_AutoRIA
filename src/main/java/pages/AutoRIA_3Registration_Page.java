@@ -17,18 +17,17 @@ public class AutoRIA_3Registration_Page extends BasePage {
         private final static By email = By.id("registrationform-email");
         private final static By validEmail = By.id("registrationform-email");
         private final static By notValidEmail = By.id("registrationform-email");
-        private final static By notValidPhoneNumber = By.id("registrationform-email");
         private final static By checkBox = By.xpath("//label[@for='registrationform-agree']");
         private final static By registrationButton = By.id("registration_button");
 
     }
 
     private static class Labels {
-        private final static String validName = "Roman";
+        private final static String validName = "Andrew";
         private final static String validSecondName = "Shevchenko";
-        private final static String validEmail = "Sheva@ukr.net";
-        private final static String notValidEmail = "Shevaukr.net";
-        private final static String phoneNumberPlusLetters = "09977666tt";
+        private final static String validEmail = "sheva@ukr.net";
+        private final static String notValidEmail = "shevaukr.net";
+        private final static String validNewEmail = "sheva3684@ukr.net";
     }
 
     public void enterTheOffice() {elements.findElement(Locators.enterTheOffice);
@@ -39,12 +38,12 @@ public class AutoRIA_3Registration_Page extends BasePage {
         elements.clickOnElement(Locators.registration);}
     public void name(){elements.inputData(Locators.name, Labels.validName);}
     public void secondName(){elements.inputData(Locators.secondName, Labels.validSecondName);}
-    public void validEmail(){elements.inputData(Locators.validEmail, Labels.notValidEmail);}
+    public void validEmail(){elements.inputData(Locators.validEmail, Labels.validEmail);}
     public void checkBox(){elements.clickOnElement(Locators.checkBox);}
     public void registrationButton() {elements.clickOnElement(Locators.registrationButton);}
     public void notValidEmail(){elements.inputData(Locators.notValidEmail, Labels.notValidEmail);}
-    public void notValidPhoneNumber(){elements.inputData(Locators.notValidPhoneNumber, Labels.phoneNumberPlusLetters);}
     public void email(){elements.inputData(Locators.email, Labels.validEmail);}
+    public void newemail(){elements.inputData(Locators.email, Labels.validNewEmail);}
     public void refresh(){driver.navigate().refresh();
     }
 }
